@@ -135,7 +135,7 @@ install(){
       "v": "2",
       "ps": "v2ray-WebSocket+TLS IBM United States",
       "add": "${IBM_APP_NAME}.us-south.cf.appdomain.cloud",
-      "port": "443",
+      "port": "80",
       "id": "${UUID}",
       "aid": "64",
       "net": "ws",
@@ -148,6 +148,7 @@ EOF
     )
 	echo "配置链接："
     echo vmess://${VMESSCODE}
+
 }
 
 automatic_restart_parameter
